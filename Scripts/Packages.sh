@@ -79,10 +79,18 @@ UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "timecontrol" "sirpdboy/luci-app-timecontrol" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "axonhub gecoosac luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
-
-
+UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
+UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
+UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "axonhub gecoosac sing-box luci-app-homeproxy luci-app-timewol luci-app-wolplus luci-app-wolultra"
+# UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
+UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-daed" "QiuSimons/luci-app-daed" "kix"
-UPDATE_PACKAGE "luci-app-dae" "davidtall/luci-app-dae" "kix"
+UPDATE_PACKAGE "luci-app-dae" "QiuSimons/luci-app-dae" "kix"
+UPDATE_PACKAGE "luci-app-pushbot" "zzsj0928/luci-app-pushbot" "master"
+UPDATE_PACKAGE "luci-app-easytier" "EasyTier/luci-app-easytier" "main"
+UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
+UPDATE_PACKAGE "openlist2" "sbwml/luci-app-openlist2" "main"
+
 UPDATE_PACKAGE "luci-app-pushbot" "zzsj0928/luci-app-pushbot" "master"
 UPDATE_PACKAGE "luci-app-nginx-manager" "hello-yunshu/luci-app-nginx-manager" "main"
 #更新软件包版本
