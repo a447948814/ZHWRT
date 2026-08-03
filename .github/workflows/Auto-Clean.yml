@@ -12,6 +12,11 @@ on:
        - completed
   #手动清理
   workflow_dispatch:
+    inputs:
+      NUMBER:
+        default: '8'
+        required: false
+        type: string
 
 permissions: write-all
 
