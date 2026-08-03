@@ -1,22 +1,11 @@
 name: Auto-Clean
 
-# on:
-#   #自动清理：每周日 晚上 22:00
-#   schedule:
-#     - cron: 0 22 * * 0
 on:
-  #自动编译：当Cache-Clean运行完成后
-  workflow_run:
-    workflows: ["QCA-6.18-VIKINGYFY"]
-    types:
-       - completed
+  #自动清理：每天早上5点
+  schedule:
+    - cron: 0 21 * * *
   #手动清理
   workflow_dispatch:
-    inputs:
-      NUMBER:
-        default: '8'
-        required: false
-        type: string
 
 permissions: write-all
 
